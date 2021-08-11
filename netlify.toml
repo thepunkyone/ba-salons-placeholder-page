@@ -1,0 +1,44 @@
+[[redirects]]
+  from = "/akcijas.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+from = "/ajurvediska-masaza.html"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/reflektora-masaza.html"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/mugurkaula-dziedinasana.html"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/klasiska-un-spa-masaza.html"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/zilesana-ar-taro-kartim.html"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/kontakti.html"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/o-hac.html"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/kontakti-ru.html"
+to = "/"
+status = 301
