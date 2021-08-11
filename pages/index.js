@@ -19,7 +19,15 @@ export default function Home() {
         <div className={styles.hero}>
           <img
             className={styles.heroImage}
-            src="/hero.jpg"
+            srcset="/hero-500px.jpg 500w,
+             /hero-1000px.jpg 1000w,
+             /hero-2000px.jpg 2000w,
+             /hero-4000px.jpg 4000w"
+            sizes="(max-width: 500px) 500px,
+            (min-width: 501px) and (max-width: 1000px) 1000px,
+            (min-width: 1001px) and (max-width: 2000px) 2000px,
+            (min-width: 2001px) 4000px"
+            src="/hero-1000px.jpg"
             alt="BA Salons Masāžas galds"
           />
 
