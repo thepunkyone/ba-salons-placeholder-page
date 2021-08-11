@@ -16,8 +16,21 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.heroImage}>
-          <img src="/hero.jpg" alt="BA Salons Masāžas galds" />
+        <div className={styles.hero}>
+          <img
+            className={styles.heroImage}
+            src="/hero.jpg"
+            alt="BA Salons Masāžas galds"
+          />
+
+          <div className={styles.heroText}>
+            <img
+              className={styles.logo}
+              src="/lotus.svg"
+              alt="BA Salons logo"
+            />
+            <h1 className={styles.heading}>BA Salons</h1>
+          </div>
         </div>
 
         <div className={styles.contentWrapper}>
