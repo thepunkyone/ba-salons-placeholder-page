@@ -9,12 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.7",
     "next": "11.0.1",
+    "postcss-flexbugs-fixes": "^5.0.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "eslint-config-next": "11.0.1"
+    "eslint-config-next": "11.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-responsive-type": "^1.0.0",
+    "prettier": "^2.3.2",
+    "rfs": "^9.0.5",
+    "sass": "^1.37.5"
   }
 }
