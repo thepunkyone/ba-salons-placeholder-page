@@ -3,16 +3,35 @@ import Link from "next/link";
 
 import styles from "../styles/Home.module.scss";
 
+const title = "BA Salons | Masāžas Rīgā un Tukumā";
+const description = "No sirds PALDIES visiem, kas bija kopā ar mums!";
+const absoluteUrl = "https://ba-salons.lv/";
+const metaImage = "/hero-500px.jpg";
+
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>BA Salons</title>
-        <meta
-          name="description"
-          content="No sirds PALDIES visiem, kas bija kopā ar mums!"
-        />
         <link rel="icon" href="/favicon.ico" />
+        <title>{title}</title>
+        <meta name="title" content={title} />
+        <meta name="description" content={description} />
+        <meta name="rating" content="general" />
+        <meta name="robots" content="all" />
+
+        <meta property="og:site_name" content="BA Salons" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={absoluteUrl} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={metaImage} />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site" content="@BASalons" />
+        <meta property="twitter:url" content={absoluteUrl} />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={description} />
+        <meta property="twitter:image" content={metaImage} />
       </Head>
 
       <main className={styles.main}>
